@@ -1,7 +1,7 @@
 module.exports = {
   host: "127.0.0.1", // 生成网页地址（本地调试使用）
   port: "8080", // 生成网页端口（本地调试使用）
-  title: "ma-xx Blog", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
+  title: "renjiangong Blog", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
   description: "个人博客", // meta 中的描述文字，用于SEO
   /* 
    部署站点的基础路径，如果你想让你的网站部署到一个子路径下，你将需要设置它。如 GitHub pages，
@@ -56,7 +56,7 @@ module.exports = {
         icon: "reco-message",
         items: [{
           text: "GitHub",
-          link: "https://github.com/ma-xx",
+          link: "https://github.com/renjiangong",
           icon: "reco-github",
         },
         {
@@ -109,7 +109,7 @@ module.exports = {
     cyberSecurityLink: 'http://www.baidu.com',
     startYear: "2021", // 项目开始时间，只填写年份
     lastUpdated: "最后更新时间", // string | boolean
-    author: "ma-xx",
+    author: "renjiangong",
     logo: '/avatar.png',
     authorAvatar: "/avatar.png", //作者头像
     mode: "light", //默认显示白天模式
@@ -158,14 +158,14 @@ module.exports = {
       "@vuepress-reco/vuepress-plugin-rss", //RSS插件
       {
         site_url: "https://ma-x-x.github.io/my-blog", //网站地址
-        copyright: "ma-xx", //版权署名
+        copyright: "renjiangong", //版权署名
       },
     ],
     ['@vuepress-reco/comments', {
       solution: 'valine',
       options: {
-        appId: process.env.LEANCLOUD_APP_ID || '69aDCp6uj6RglRfI1XwkIRef-gzGzoHsz',
-        appKey: process.env.LEANCLOUD_APP_KEY || 'dMcfGj9gFkPeDlADN2PX3lbq',
+        appId: process.env.LEANCLOUD_APP_ID || 'lBYOgsJxPofdqwYw8JbOkCbY-9Nh9j0Va',
+        appKey: process.env.LEANCLOUD_APP_KEY || '7c3JNMlYplb0jnUBOW0Eh5p2',
       }
     }],
     ["flowchart"], // 支持流程图
